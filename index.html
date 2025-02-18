@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
 <body>
-    
+    <h1>Tetris</h1>
+    <div class="scoreContainer">
+        <p>Puntuación: <span id="score">0</span></p>
+        <p>Mejor puntuación: <span id="highSore">0</span></p>
+        <canvas id="tetris" width="300" height="600"></canvas>
+        <button id="pauseButton">Pausar⏸️</button>
+    </div>   
 </body>
 </html>
